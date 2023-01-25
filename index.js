@@ -25,7 +25,7 @@ app.get("/", (req, res) => {
   res.send("Hello from node");
 });
 
-const port = 8080;
+const port = 5000;
 app.listen(port, () => {
   console.log(`Server Listening on port: ${port}`);
 });

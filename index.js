@@ -27,5 +27,5 @@ app.get("/", (req, res) => {
 
 const port = 5001;
 app.listen(port, () => {
-  console.log(`Server Listening on port ${port}`);
+  console.log(`Server Listening on port: ${port}`);
 });
